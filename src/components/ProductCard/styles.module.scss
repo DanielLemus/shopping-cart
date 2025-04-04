@@ -1,0 +1,120 @@
+.card {
+    max-width: 280px;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.2s ease;
+    position: relative; 
+  }
+  
+  .price-label {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #171717;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 4px 10px;
+    z-index: 3;
+  }
+  
+  .card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .image {
+    object-fit: contain !important;
+    width: 100%;
+    height: 100%;
+    max-height: 250px;
+  }
+  
+  .add-button {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background-color: #fff !important;
+    border: 1px solid #333;
+    border-radius: 50%;
+    padding: 4px;
+    z-index: 2;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .title {
+    font-size: 1rem;
+    font-weight: bold !important;
+    line-height: 1.2;
+    text-align: center !important;
+  }
+  
+  .description {
+    font-size: 0.85rem;
+    color: #c1c1c1;
+    line-height: 1.3;
+    min-height: 80px !important;
+    max-height: 80px !important;
+    overflow-y: auto;
+    max-width: 99% !important;
+    text-align: center !important;
+  }
+  
+  
+  .price {
+    margin-top: auto;
+    color: #171717;
+    font-weight: bold;
+    padding: 0.4rem 0.75rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    width: fit-content;
+    font-weight: bold;
+  }
+
+  .add-button{
+    font-weight: bold;
+    text-transform: none !important;
+    border-radius: 50px !important;
+    color: #fff !important;
+    background-color: #a259ff !important;
+    padding: 0.50rem 1rem !important;
+    margin: 10px 0px !important;
+  }
+
+  .quantity-control {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 10px 0px !important;
+  }
+  
+  .qty-btn {
+    color: #a259ff  !important;
+    border: 1px solid #a259ff !important ;
+    padding: 4px !important;
+    width: 28px !important;
+    height: 28px !important;
+    border-radius: 50% !important;
+  }
+  
+  .qty-number {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  

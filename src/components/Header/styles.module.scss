@@ -1,0 +1,65 @@
+.header {
+    background-color: #171717 !important;
+    padding: 0.5rem 2rem;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  
+  .logo {
+    color: #fff;
+    font-size: 1.80rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-wrapper {
+    position: relative;
+    max-width: 500px;
+    flex: 1;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 0.5rem 2.5rem 0.5rem 1rem;
+    border-radius: 100px;
+    background-color: #fff;
+    font-size: 1rem;
+  }
+  
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+    color: #888;
+    pointer-events: none;
+  }
+  
+  .cart {
+    color: #fff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .cart-icon {
+    font-size: 1.8rem;
+  }
+  
+  .badge-wrapper {
+    
+    .MuiBadge-badge {
+      background-color: #a259ff !important;
+      color: white;
+      font-weight: bold;
+    }
+  }
+  

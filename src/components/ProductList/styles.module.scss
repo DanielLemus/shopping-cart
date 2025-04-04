@@ -1,0 +1,30 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 120px;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+  }
+
+  .notFound{
+    margin-top: 50px;
+  }
+  
+  .view-more {
+    display: block;
+    font-weight: bold;
+    text-transform: none !important;
+    border-radius: 50px !important;
+    color: #171717 !important;
+    border-color: #171717 !important;
+    padding: 0.50rem 1rem !important;
+  
+    &:hover {
+      background: #171717 !important;
+      color: #fff !important;
+  
+    }
+  }
